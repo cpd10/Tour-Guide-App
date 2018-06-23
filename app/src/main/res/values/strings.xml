@@ -1,0 +1,48 @@
+<resources>
+    <string name="main_menu">Main Menu</string>
+    <string name="app_name">Tour Guide</string>
+    <string name="mainFood">FOOD</string>
+    <string name="mainSports">SPORTS</string>
+    <string name="mainEducation">EDUCATION</string>
+    <string name="mainLandmarks">LANDMARKS AND SIGHTS</string>
+
+    <string name="innout"><b>In-N-Out</b></string>
+    <string name="rigos"><b>Rigo\'s Tacos</b></string>
+    <string name="cpk"><b>California Pizza Kitchen</b></string>
+    <string name="steak"><b>Bourbon Steak</b></string>
+    <string name="roscoes"><b>Roscoe\'s Chicken and Waffles</b></string>
+    <string name="inAdd"><b>9149 S Sepulveda Blvd</b></string>
+    <string name="rigoAdd"><b>11324 Vanowen St</b></string>
+    <string name="cpkAdd"><b>6801 Hollywood Blvd</b></string>
+    <string name="steakAdd"><b>237 S Brand Blvd</b></string>
+    <string name="roscoesAdd"><b>1514 N Gower St</b></string>
+
+    <string name="ucla"><b>University Of California Los Angeles</b></string>
+    <string name="usc"><b>University Of Southern California</b></string>
+    <string name="beach"><b>California State University Long Beach</b></string>
+    <string name="csun"><b>California State University Northridge</b></string>
+    <string name="uclaAdd"><b>405 Hilgard Avenue</b></string>
+    <string name="uscAdd"><b>Downtown Los Angeles</b></string>
+    <string name="beachAdd"><b>1250 Bellflower Blvd</b></string>
+    <string name="csunAdd"><b>18111 Nordhoff St</b></string>
+
+    <string name="sportsLakers"><b>Lakers</b></string>
+    <string name="sportsClippers"><b>Clippers</b></string>
+    <string name="sportsRams"><b>Rams</b></string>
+    <string name="sportsDodgers"><b>Dodgers</b></string>
+    <string name="sportsKings"><b>Kings</b></string>
+    <string name="staples"><b>Staples Center</b></string>
+    <string name="coliseum"><b>Los Angeles Coliseum</b></string>
+    <string name="stadium"><b>Dodger Stadium</b></string>
+
+    <string name="griffith"><b>Griffith Observatory</b></string>
+    <string name="pier"><b>Santa Monica Pier</b></string>
+    <string name="getty"><b>Getty Center</b></string>
+    <string name="walk"><b>Hollywood Walk Of Fame</b></string>
+    <string name="disney"><b>Disneyland</b></string>
+    <string name="griffithAdd"><b>2800 E Observatory Rd</b></string>
+    <string name="pierAdd"><b>200 Santa Monica Pier A</b></string>
+    <string name="gettyAdd"><b>1200 Getty Center Dr</b></string>
+    <string name="walkAdd"><b>N Highland Ave and Hollywood Blvd</b></string>
+    <string name="disneyAdd"><b>1313 Disneyland Dr</b></string>
+</resources>

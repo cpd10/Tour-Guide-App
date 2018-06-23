@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguide.MainActivity"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:id="@+id/skyline"
+        android:background="@color/darkRed"
+        android:src="@drawable/la_skyline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="WELCOME TO LOS ANGELES"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:id="@+id/mainList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/skyline"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/listFood"
+            style="@style/mainLinear">
+            <TextView
+                style="@style/MainListText"
+                android:text="@string/mainFood"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listEducation"
+            style="@style/mainLinear">
+
+            <TextView
+                style="@style/MainListText"
+                android:text="@string/mainEducation"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listSports"
+            style="@style/mainLinear">
+
+            <TextView
+                style="@style/MainListText"
+                android:text="@string/mainSports"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listLandmarks"
+            style="@style/mainLinear">
+
+            <TextView
+                style="@style/MainListText"
+                android:text="@string/mainLandmarks"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
